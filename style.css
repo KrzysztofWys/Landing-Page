@@ -1,0 +1,70 @@
+body{
+    /* Background pattern from Toptal Subtle Patterns */
+background-image: url("tlo.png");
+margin: 0;
+width: 100%;
+font-family: lato;
+}
+
+#header{
+    position: sticky;
+    top:0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-image: url("tlo.png");
+    padding: 5px;
+}
+
+@media (max-width: 100px) { /* CSS Rules */ }
+@media(max-height){
+#header{
+    display: default;
+    }
+}
+
+#header-img{
+    width: 64px;
+    margin: 0 24px;
+}
+
+
+#nav-bar{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.nav-link{
+    display: inline;
+    color: #333;
+    text-decoration: none; 
+    padding-top: 32px;
+}
+
+.nav-link a {
+    display: inline;
+    color: #333;
+    text-decoration: none;  
+}
+.nav-link:visited {
+    display: inline;
+    color: #333;
+    text-decoration: none;  
+}
+
+#form{
+    margin-top: 16px;
+    text-align: center;
+    padding: 8px;
+}
+
+.container{
+    text-align: center;
+}
+
